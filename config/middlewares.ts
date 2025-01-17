@@ -7,7 +7,9 @@ module.exports = [
       origin: [
         'http://localhost:3000', // Pour le développement local
         'https://trad-index.com', // Domaine principal
-        'https://www.trad-index.com' // Sous-domaine www (optionnel)
+        'https://www.trad-index.com', // Sous-domaine www (optionnel)
+        'https://my-strapi-project-yysn.onrender.com', // URL de Strapi sur Render
+        'https://my-nextjs-project-s1ua.vercel.app'
       ],
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization'],
